@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Flexboxs</title>
+    <link rel="stylesheet" href="flexbox.css">
+    <link rel="import" href="http://127.0.0.1:5500/example.html">
+</head>
+<body>
+    <header><b>Flexbox! The "Building Blocks" of Websites</b>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#About">About Flexbox</a></li>
+                <li><a href="#CommonPatterns">Common Patterns</a></li>
+                <li><a href="#Examples">Examples</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <div class="main">
+                <section>
+                    <h3 id="About">Camping with Flexbox</h3>
+                    <div>Lets venture into the lush and flexible landscapes of Flexbox, a powerful tool in the CSS toolkit that makes designing complex layouts as easy as a stroll in the park. Imagine Flexbox as your trusty backpack, equipped with everything you need to set up camp anywhere, from the steep cliffs of responsive design to the vast plains of aligning content</div>
+                    <div>At the heart of every Flexbox adventure are two key concepts: the Flex Container and Flex Items. Think of the Flex Container as your campsite, a designated area where your layout will live. Within this campsite, every piece of content—be it a tent, a campfire, or a cooler—is considered a Flex Item, ready to be positioned to your liking.</div>
+                </section>
+
+                <section>
+                <h3 id="CommonPatterns">Common Flexbox Patterns</h3>
+                    <div>Flexbox's power lies in its versatility, offering a range of patterns to solve common layout challenges:</div>
+                    <div>
+                        <ul>
+                            <li>Centering Content: Like finding the perfect spot for your tent under the stars, centering content is a breeze with Flexbox. Just set <b>justify-content</b> and <b>align-items</b> to center, and watch your content align perfectly within its container.</li>
+                            <li>Equal Distribution: Distributing space in Flexbox is like evenly spacing out tents in an open field. Use <b>justify-content: space-around</b> or <b>space-between</b> to give your Flex Items equal breathing room, ensuring a harmonious layout.</li>
+                            <li>Responsive Columns: Flexbox shines in creating responsive designs, much like how a campsite adapts to the terrain. By setting <b>flex-wrap: wrap</b> on a container, Flex Items flow into a new row when the space becomes too narrow, ensuring your layout remains accessible on any device.</li>
+                            <li>Vertical Stacking: Sometimes, the best way to arrange your camp is in a vertical stack, especially when space is limited. By changing the <b>flex-direction</b> to <b>column</b>, Flex Items stack on top of each other, creating a neat, orderly layout that scales beautifully.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3 id="Examples">Flexbox Examples</h3>
+                        <div>
+                            In the example link below, we created a web resume structured template into a flexible two-column layout using Flexbox, ensuring that content is neatly organized and aesthetically pleasing. The <b>.container</b> div acts as the Flex Container, housing the navigation, main content, and aside sections as Flex Items. This setup allows for easy adjustments and reflows, especially with the added responsive styles for smaller screens. By incorporating Flexbox into our layout, we've improved the visual hierarchy and readability of the web resume.
+                        </div>
+                        <a href="http://127.0.0.1:5500/example.html">
+                            <button target="_blank">Flexbox Resume Template</button>
+                        </a>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="Footer">
+            <div><a href="#">Contact</a></div>
+            <div><a href="#">Events</a></div>
+            <div><a href="#">Blog link</a></div>
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
